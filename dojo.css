@@ -1,0 +1,57 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn{
+    background-color: transparent;
+    border-radius: 13px ;
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 130px;
+    padding: 5px 5px;
+    color:#54F0A2 ;
+    border: 2px solid #54F0A2 ;
+}
+.row {
+    margin: 0 auto;
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    font-size: 1.2rem;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(58, 143, 143);
+    flex: 1;
+}
+.navbar{
+    display: flex;
+    flex-direction: row; 
+    width: 900px;
+    justify-content: space-around;
+    margin: auto;
+    background-color: rgb(63, 61, 61);
+}
+/*sub-container-1*/
+.colum-1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* sub-container-2*/
+.colum-2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
